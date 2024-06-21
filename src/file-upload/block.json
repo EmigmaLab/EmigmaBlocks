@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/file-upload",
+	"version": "0.1.0",
+	"title": "File Upload",
+	"category": "widgets",
+	"description": "Single file upload block.",
+	"example": {},
+	"attributes": {
+		"mediaURL": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "copyright-date-block",
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php"
+}
