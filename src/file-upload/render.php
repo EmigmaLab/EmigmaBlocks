@@ -20,7 +20,7 @@ if (isset($attributes['mediaURL']) && !empty($attributes['mediaURL'])) {
         $block_content .= '<div class="content ms-2">';
         $block_content .= '<h4 class="mb-1">' . basename($media_url) . '</h4>'; // Display the filename
         $block_content .= '<p class="fs-4 mb-1">' . wp_check_filetype($media_url)['ext'] . ', ' . size_format($metadata['filesize']) . '</p>'; // Display file type and size
-        $block_content .= '<p class="text-primary">' . __('Download File', 'your-textdomain') . '</p>';
+        $block_content .= '<p class="text-primary">' . __('Download File', 'emigmablocks') . '</p>';
         $block_content .= '</div></a></div>';        
     }
 } else {

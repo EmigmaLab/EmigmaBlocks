@@ -32,8 +32,6 @@ const uploadIcon = (
 );
 
 
-
-
 /**
  * Every block starts by registering a new block type definition.
  *
