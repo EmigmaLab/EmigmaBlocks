@@ -5,5 +5,16 @@
  */
 
 .wp-block-create-block-file-upload {
-	border: 1px dotted #f00;
+	margin: 0;
+
+	&:hover {
+		background-color: #007cba;
+		color: #fff;
+		font-weight: 500;
+	}
+	
+	p {
+		margin: 0;
+		margin-bottom: 15px;
+	}
 }
